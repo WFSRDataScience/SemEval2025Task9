@@ -1,0 +1,1 @@
+{'analyzer': 'word', 'tokenizer': 'none', 'max_depth': 100, 'max_features': 5000, 'ngram_range': '(1, 1)', 'min_df': 5, 'max_df': 0.3}

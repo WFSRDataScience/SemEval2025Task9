@@ -1,0 +1,1 @@
+{'analyzer': 'word', 'tokenizer': 'none', 'n_neighbors': 3, 'weights': 'distance', 'ngram_range': '(1, 4)', 'min_df': 1, 'max_df': 0.3}

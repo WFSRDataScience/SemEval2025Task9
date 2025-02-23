@@ -1,0 +1,10 @@
+services:
+  app:
+    image: SemEvalTask9/efra
+    container_name: efra
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - ..:/home/myuser/efra
+    command: tail -f /dev/null

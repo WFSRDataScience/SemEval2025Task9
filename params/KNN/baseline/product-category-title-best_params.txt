@@ -1,0 +1,1 @@
+{'analyzer': 'word', 'tokenizer': 'spacy', 'n_neighbors': 5, 'weights': 'uniform', 'ngram_range': '(1, 1)', 'min_df': 1, 'max_df': 0.3}

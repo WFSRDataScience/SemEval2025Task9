@@ -1,0 +1,48 @@
+# Directories
+datarawdirectory: data/raw/
+dataaugmenteddirectory: data/augmented/
+dataprocesseddirectory: data/processed/
+modelpath: stored_models/
+resultsrawpath: results/
+resultsevaluatedpath: results/
+submissionpath: submissions/
+figuredirectory: reports/figures/
+
+
+modelname: 'bert' # define the model to use. Choices are 'bert', 'roberta', 'distilbert', 'modernbert', 'SVM', 'LR', 'NB', 'DT', 'RF', 'KNN'
+category: 'all' # category to predict. Use "all" to train all the labels at once. Available categories are 'hazard-category', 'product-category', 'hazard', 'product'
+field: "text" # field to use for training the model. Either 'text' or 'title'
+augmenter_name: "baseline" # name of the augmenter to use. Available augmenters are 'baseline' (means no augmentation is used), 'random_words', 'synonym', 'contextual_words'
+seed: 2025 # random seed number for reproducibility
+train_on_full_data: True # train on train and validation set
+use_best_params: True # use best hyperparameters for the model based on Optuna finetuning
+categories: ['hazard-category', 'product-category', 'hazard', 'product']
+
+# Transformer-training models - parameters
+device: cpu # cpu or cuda device. Change it to cuda if you have GPU support
+epochs: 5 # number of epochs to train the model
+lr: 5.0e-5 # learning rate
+lr_scheduler: 'linear' # learning rate scheduler. Available choices are: linear, cosine, cosine_with_restarts
+batch_size: 8
+max_length: 128  # maximum length for the tokenizer
+
+# ML-training models - parameters
+analyzer: 'word' # word or char
+max_features: 10000
+tokenizer: 'none'
+ngram_range: '(1,1)'
+min_df: 5
+max_df: 0.3
+
+max_depth: 100 # For DT
+n_estimators: 300 # For RF
+C: 1 # For LR and SVM
+max_iter : 1000 # For LR and SVM
+alpha: 1.0 # For NB
+n_neighbors: 5 # For KNN
+weights: 'uniform' # For KNN
+
+
+
+
+

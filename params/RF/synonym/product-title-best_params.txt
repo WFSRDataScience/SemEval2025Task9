@@ -1,0 +1,1 @@
+{'analyzer': 'word', 'tokenizer': 'spacy', 'n_estimators': 200, 'max_depth': 1000, 'max_features': 10000, 'ngram_range': '(1, 1)', 'min_df': 1, 'max_df': 0.1}

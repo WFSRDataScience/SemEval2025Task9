@@ -1,0 +1,13 @@
+Models,hazard-category,product-category,hazard,product
+Bert baseline,0.747,0.757,0.581,0.17
+Bert CW,0.76,0.761,0.671,0.28
+Bert SR,0.77,0.754,0.666,0.275
+Bert RW,0.752,0.757,0.651,0.275
+Bert baseline,0.759,0.777,0.594,0.196
+Bert CW,0.789,0.749,0.666,0.293
+Bert SR,0.748,0.741,0.645,0.292
+Bert RW,0.745,0.773,0.649,0.236
+Bert baseline,0.765,0.772,0.607,0.191
+Bert CW,0.756,0.759,0.638,0.280
+Bert SR,0.796,0.754,0.645,0.000
+Bert RW,0.755,0.726,0.687,0.256

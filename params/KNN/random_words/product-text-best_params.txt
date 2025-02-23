@@ -1,0 +1,1 @@
+{'analyzer': 'char', 'n_neighbors': 3, 'weights': 'uniform', 'ngram_range': '(2, 5)', 'min_df': 5, 'max_df': 0.3}

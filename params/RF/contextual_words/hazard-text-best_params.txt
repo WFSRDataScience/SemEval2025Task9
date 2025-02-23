@@ -1,0 +1,1 @@
+{'analyzer': 'char', 'n_estimators': 100, 'max_depth': 1000, 'max_features': 50000, 'ngram_range': '(1, 5)', 'min_df': 1, 'max_df': 0.1}
